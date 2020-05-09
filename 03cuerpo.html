@@ -1,0 +1,194 @@
+<!doctype html>
+
+<html>
+
+	<head>
+		
+		<meta charset="utf-8">
+		
+		<meta name="author" content="Tutoriales a tu alcance">
+		
+		<meta name="Description" content="Aca se pone la descripcion del sitio">
+		
+		<meta name="Keywords" content="tutoriales, html, desarrollo web">
+		
+		<title>Estructura del cuerpo</title>
+		
+		<link rel="icon" href="imagen/WhatsApp Image 2020-02-28 at 9.11.45 PM (1).jpeg">
+
+	</head>
+
+	<body>
+		
+		<center>
+		<h3>formulario</h3>
+		
+		<form>
+			
+			<label for="texto">Entrada de texto</label>
+			<input id="texto" type="text" placeholder="Entrada de texto" value="" required>
+			
+			<br>
+			<br>
+			
+			<label for="correo">Entrada de correo</label>
+			<input id="correo" type="email" placeholder="Entrada de correo" value="" required>
+			
+			<br>
+			<br>
+			
+			<label for="pass">Contraseña</label>
+			<input id="pass" type="password" placeholder="Contraseña" value="" required>
+			
+			<br>
+			<br>
+			
+			<input type="number" value="1" min="0" max="3">
+			
+			<br>
+			<br>
+			
+			<select>
+				<option>Opcion 1</option>
+				<option>Opcion 2</option>
+				<option>Opcion 3</option>
+			</select>
+			
+			<br>
+			<br>
+			
+			<input type="checkbox" id="rojo"><label for="rojo">Rojo</label>
+			<input type="checkbox" id="amarillo"><label for="amarillo">Amarillo</label>
+			<input type="checkbox" id="verde"><label for="verde">Verde</label>
+			
+			<br>
+			<br>
+			
+			<input type="radio" id="blanco" name="radio" checked><label for="blanco">Blanco</label>
+			<input type="radio" id="negro" name="radio"><label for="negro">Negro</label>
+			
+			<br>
+			<br>
+			
+			<input type="submit" value="Enviar Formulario">
+			
+			
+		</form>
+		</center>
+		<header>
+		
+		<div id="logotipo"> logotipo</div>
+		
+		</header>
+		
+		<nav>Barra de navegacion</nav>
+		
+		<section>Seccion principal</section>
+		
+		<aside class="noticias">noticia 1</aside>
+		<aside class="noticias">noticia 2</aside>
+		<aside class="noticias">noticia 3</aside>
+		
+		<article>Articulo</article>
+		
+		<h1>Titulo</h1>
+		<h2>Titulo</h2>
+		<h3>Titulo</h3>
+		<h4>Titulo</h4>
+		<h5>Titulo</h5>
+		
+		<p>Esto es un <b>parrafo</b>, <br>para saltar a otro parrafo</p>
+		
+		<hr>
+		
+		<a href="#">Vinculo</a>
+		
+		<figure>
+		<img src="../../../../biografias/biografias/1.jpg">
+		</figure>
+		<figcaption>Pie de pagina a la imagen</figcaption>
+		
+		<ol>
+		
+		<li>carro</li>
+		<li>avion</li>
+		<li>barco</li>
+		<li>moto</li>
+			
+		</ol>
+		<ul>
+		
+		<li>carro</li>
+		<li>avion</li>
+		<li>barco</li>
+		<li>moto</li>
+			
+		</ul>
+		
+		<table border="1">
+		
+		<thead>
+		  <tr>
+			<th>MES</th>
+			<th>AHORRO</th>		
+		  </tr>
+		</thead>	
+		
+		<tbody>
+		  <tr>
+			<td>ENERO</td>
+			<td>$100</td>		
+		  </tr>		
+		  <tr>
+			<td>FEBRERO</td>
+			<td>$200</td>		
+		  </tr>
+		</tbody>	
+		
+		</table>
+		
+		<hl>Resultado del Examen</hl>
+		<p>Carlos: <meter value="40" min="0" max="100" high="90"></meter></p>
+		<p>Andres: <meter value="60" min="0" max="100" high="90"></meter></p>
+		<p>Ana: <meter value="94" min="0" max="100" high="90"></meter></p>
+		<p>Axel: <meter value="90" min="0" max="100" high="90"></meter></p>
+		
+		<h2>Resultado de Ventas</h2>
+		<p>Eenero: <progress value="94" min="0" max="100"></progress></p>
+		<p>Febrero: <progress value="60" min="0" max="100"></progress></p>
+		<p>Mayo: <progress value="85" min="0" max="100"></progress></p>
+		<p>Diciembre: <progress value="45" min="0" max="100"></progress></p>
+		
+		<audio autoplay controls loop preload="auto">
+		
+	    <!-- Ogg VORBIS .ogg-->
+		<!-- MP3 .mp3-->
+		<!-- WAV .wav-->
+		<!-- ACC .m4a, .m4b, .m4p, .mp4, .acc-->
+		
+			<source src="audio/audio.m4a" type="audio/mp4">
+			<source src="audio/audio.mp3" type="audio/mp3">
+			<source src="audio/audio.ogg" type="audio/ogg">
+		</audio>
+		
+		<video autoplay controls loop width="500" height="200">
+		
+		<!-- THEORA OGG .ogv-->
+		<!-- MP4 .mp4-->
+		<!-- WEBM .webm-->
+		
+			<source src="video/video.mp4" type="video/mp4">
+			<source src="video/video.mgv" type="video/mgv">
+			<source src="video/video.webm" type="video/webm">
+			
+		</video>
+		
+		<iframe width="500" height="280" src="https://www.youtube.com/embed/URVHRhBSjj8" frameborder="0" allowfullscreen></iframe>
+		
+		<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3407.0572600515293!2d-64.19253968550049!3d-31.357399081423832!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x943299a672137aa7%3A0xf83379231805f9d2!2sFray%20Miguel%20de%20Mojica%2C%20C%C3%B3rdoba!5e0!3m2!1ses-419!2sar!4v1588967312256!5m2!1ses-419!2sar" width="600" height="450" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
+		
+		<footer>Este es el pie de la pagina(nombre de author, fecha, etc</footer>
+		
+	</body>
+	
+</html>
